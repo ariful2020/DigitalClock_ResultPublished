@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'digital';
+    src: url(../fonts/digital.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* =========Digital_clock========== */
+.img-fluid {
+	height: 365px !important;
+	width: 260px;
+}
+#time_result span {
+	color: #27ae60;
+	/* color: #dc3545; */
+	font-size: 25px;
+	font-family: "digital", Orbitron;
+}
+.card-body {
+	position: relative;
+}
+#time_result {
+	position: absolute;
+	top: 170px;
+	left: 98px;
+}
+
+#h, #m{
+	font-size: 40px !important;
+}
+#s {
+	position: absolute;
+	font-size: 22px !important;
+	top: 0px;
+	left: 90px;
+}
+#am_pm {
+	font-size: 22px !important;
+	position: absolute;
+	top: 30px;
+	left: 90px;
+}
+#icon {	
+	font-size: 20px;
+}
+#icon .fa-heart{
+	position: absolute;
+	top: -30px;
+	left: 0;
+	color: #dc3545; 	
+}
+
+#icon .fa-battery-full{
+	position: absolute;
+	top: -30px;
+	right: -25px;
+	color: #27ae60;
+}
+span#d {
+	position: absolute;
+	width: 100px;
+	font-size: 17px !important;
+	margin-top: 9px;
+	color: #27ae60;	
+}
+/* ============Counter_loader============= */
+.btn-primary{
+	background: #dc3545 !important;
+	border:1px solid #dc3545;
+}
+.btn-primary:hover{
+	border:1px solid #dc3545;
+}
+.btn-primary:focus {
+	box-shadow: none;
+	border-color: transparent;
+}
+.form-control:focus {
+	box-shadow: none !important;
+}
+.progress {
+	height: 2rem;
+	border: 2px solid #dc3545;
+	border-radius: .4rem;
+}
+#counter_result h1 {
+	font-size: 150px;
+	font-family: "digital", Orbitron;
+	color: #dc3545;
+}
+.btn:focus {
+	box-shadow: none !important;
+}
+.progress-bar {
+	background-color: #dc3545;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============Todo_List=========== */
+#todo_list {
+	height: 215px;
+}
+.alert.alert-warning.alert-dismissible.fade.show {
+	width: 100% !important;
+	display: block;
+}
+
+/* ============Result_calculation=========== */
+.show{
+	display: inline;
+}
+.hide{
+	display: none;
+}
+.m_1 {
+	margin-left: 51px;
+}
+.m_2 {
+	margin-left: 71px;
+}
+.m_3 {
+	margin-left: 57px;
+}
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #dddddd;
+  }
+  #basic_info span {
+	font-size: 20px;
+	line-height: 30px;
+}
